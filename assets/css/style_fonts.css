@@ -1,3 +1,5 @@
+/*roboto*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular&display=swap");
 /* inter-regular - latin */
 @font-face {
   font-family: "Inter";
@@ -65,4 +67,16 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+body {
+  font-family: "Inter", "Merriweather", "Roboto", sans-serif;
+  background: #000000;
+  color: #fff;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0px auto;
+  /*padding: 0px 20px;*/
 }
