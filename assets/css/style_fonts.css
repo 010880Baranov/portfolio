@@ -80,3 +80,35 @@ body {
   margin: 0px auto;
   /*padding: 0px 20px;*/
 }
+
+.header {
+  /*padding: 20px 20px;*/
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_logo {
+  padding: 20px 20px;
+}
+.header_menu {
+}
+.menu_list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.menu_item {
+  font-size: 20px;
+}
+.menu_link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #ffffff;
+  text-decoration: none;
+}
