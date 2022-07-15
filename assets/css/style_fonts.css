@@ -1,3 +1,5 @@
+/*roboto*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular&display=swap");
 /* inter-regular - latin */
 @font-face {
   font-family: "Inter";
@@ -65,4 +67,48 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+body {
+  font-family: "Inter", "Merriweather", "Roboto", sans-serif;
+  background: #000000;
+  color: #fff;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0px auto;
+  /*padding: 0px 20px;*/
+}
+
+.header {
+  /*padding: 20px 20px;*/
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_logo {
+  padding: 20px 20px;
+}
+.header_menu {
+}
+.menu_list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.menu_item {
+  font-size: 20px;
+}
+.menu_link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #ffffff;
+  text-decoration: none;
 }
