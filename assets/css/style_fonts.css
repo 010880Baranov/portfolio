@@ -118,12 +118,11 @@ body {
 }
 
 .block1 {
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 50px;
-/* identical to box height, or 250% */
-text-align: center;
-
-}*/
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 50px;
+  /* identical to box height, or 250% */
+  text-align: center;
+}
