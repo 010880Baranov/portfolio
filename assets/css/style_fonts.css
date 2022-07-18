@@ -95,7 +95,8 @@ body {
 }
 .header_menu {
   margin-left: auto;
-  padding-right: 10px;
+  width: 500px;
+  /*padding-right: 10px;*/
 }
 .menu_list {
   list-style: none;
@@ -116,10 +117,13 @@ body {
   text-decoration: none;
 }
 
-/*.block1 {
-  position: absolute;
-  height: 50px;
-  left: 93.75%;
-  right: 1.39%;
-  top: 20px;
+.block1 {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 50px;
+/* identical to box height, or 250% */
+text-align: center;
+
 }*/
