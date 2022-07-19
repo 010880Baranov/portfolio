@@ -75,7 +75,7 @@ body {
   color: #fff;
 }
 
-/* Header------------*/
+/* Header----------------------------*/
 
 .container {
   max-width: 1440px;
@@ -85,6 +85,10 @@ body {
 }
 
 .header {
+  background: url("./assets/img/baheader-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center 0;
+
   /*padding: 20px 20px;*/
 }
 .container {
@@ -137,7 +141,7 @@ body {
   text-align: center;
 }
 
-/* Footer------------*/
+/* Footer------------------------------------*/
 .footer {
 }
 .container_footer {
@@ -153,8 +157,81 @@ body {
 }
 
 .footer_data {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
+.footer_logo {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #ffffff;
+}
+.footer_text2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #ffffff;
+}
+.github {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #ffffff;
+}
+
 .text1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #ffffff;
+}
+.social_item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 .social_list {
+}
+
+/*Hero-------------------------------*/
+.hero {
+  width: 500px;
+  height: 354px;
+  padding-left: 80px;
+  left: calc(50% - 500px / 2 - 390px);
+  top: 226px;
+}
+.hero_title {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 120px;
+  color: #ffffff;
+}
+.hero_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.btn {
+  width: 220px;
+  height: 55px;
+  background: #bdae82;
+  border-radius: 0px;
+  margin-top: 25px;
 }
