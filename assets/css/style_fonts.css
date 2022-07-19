@@ -75,6 +75,8 @@ body {
   color: #fff;
 }
 
+/* Header----------------------------*/
+
 .container {
   max-width: 1440px;
   min-height: 90px;
@@ -83,6 +85,10 @@ body {
 }
 
 .header {
+  background: url("./assets/img/baheader-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center 0;
+
   /*padding: 20px 20px;*/
 }
 .container {
@@ -91,6 +97,14 @@ body {
   align-items: center;
 }
 .header_logo {
+  background-image: url("./assets/img/logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+.header_logo:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
   /*padding: 20px 20px;*/
 }
 .header_menu {
@@ -125,4 +139,99 @@ body {
   line-height: 50px;
   /* identical to box height, or 250% */
   text-align: center;
+}
+
+/* Footer------------------------------------*/
+.footer {
+}
+.container_footer {
+  max-width: 1440px;
+  min-height: 150px;
+  margin: 0px auto;
+  padding: 0px 20px;
+}
+.container_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_data {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.footer_logo {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #ffffff;
+}
+.footer_text2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #ffffff;
+}
+.github {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #ffffff;
+}
+
+.text1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #ffffff;
+}
+.social_item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.social_list {
+}
+
+/*Hero-------------------------------*/
+.hero {
+  width: 500px;
+  height: 354px;
+  padding-left: 80px;
+  left: calc(50% - 500px / 2 - 390px);
+  top: 226px;
+}
+.hero_title {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 120px;
+  color: #ffffff;
+}
+.hero_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.btn {
+  width: 220px;
+  height: 55px;
+  background: #bdae82;
+  border-radius: 0px;
+  margin-top: 25px;
 }
