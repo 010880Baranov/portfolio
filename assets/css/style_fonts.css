@@ -85,7 +85,7 @@ body {
 }
 
 .header {
-  background: url("./assets/img/baheader-bg.jpg");
+  background: url(../img/header-bg.jpeg);
   background-repeat: no-repeat;
   background-position: center 0;
 
@@ -211,6 +211,13 @@ body {
   left: calc(50% - 500px / 2 - 390px);
   top: 226px;
 }
+.section1 {
+  height: 910px;
+  background-image: url(../img/header-bg.jpeg);
+  background-position: center -90px;
+  background-repeat: no-repeat;
+}
+
 .hero_title {
   font-family: "Merriweather";
   font-style: normal;
@@ -228,10 +235,62 @@ body {
   color: #ffffff;
 }
 
-.btn {
+.btn1 {
   width: 220px;
   height: 55px;
   background: #bdae82;
-  border-radius: 0px;
+  border: none;
+  cursor: pointer;
   margin-top: 25px;
+  font-family: inherit;
+  /*font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;*/
+  /* identical to box height, or 200% */
+
+  /*text-align: center;*/
+}
+.btn1:hover {
+  opacity: 0.9;
+}
+
+/*portfolio----------*/
+.btn2 {
+  width: 220px;
+  height: 55px;
+  background-color: transparent;
+  color: #bdae82;
+  border: 1px solid #bdae82;
+  cursor: pointer;
+  margin-top: 25px;
+  font-family: inherit;
+  /*font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;*/
+  /* identical to box height, or 200% */
+
+  /*text-align: center;*/
+}
+.btn2:hover {
+  opacity: 0.9;
+}
+.portfolio-btns {
+  text-align: center;
+}
+.section-title {
+  text-align: center;
+  color: #bdae82;
+}
+
+.pf {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 80px;
+  /* identical to box height, or 200% */
+  text-align: center;
+  color: #bdae82;
 }
