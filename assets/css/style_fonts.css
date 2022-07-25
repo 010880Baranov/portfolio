@@ -359,3 +359,15 @@ body {
   top: 50%;
   left: 200px;
 }
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.images {
+  max-width: 450px;
+  max-height: 560px;
+}
