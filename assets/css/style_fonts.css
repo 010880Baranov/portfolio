@@ -292,6 +292,23 @@ body {
   top: 50%;
   left: 180px;
 }
+.skills_title {
+  width: 700px;
+  height: 80px;
+}
+
+.skills_items {
+  max-width: 1440px;
+}
+.skills_items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.skills_item {
+  max-width: 320px;
+  height: 240px;
+}
 
 /*portfolio----------*/
 .btn2 {
