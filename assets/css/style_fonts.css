@@ -403,15 +403,15 @@ body {
 
 .portfolio-items {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  gap: 25px;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 .portfolio-items {
   padding: 60px 0px 0px 20px;
 }
-
 .portfolio-items img {
-  max-width: 450px;
-  max-height: 560px;
+  width: 350px;
+  height: 450px;
 }
