@@ -440,9 +440,13 @@ body {
 }
 
 /*price---------*/
+.price {
+  padding-top: 30px;
+}
+
 .price-item {
-  width: 220px;
-  height: 55px;
+  width: 450px;
+  border: #bdae82 solid 2px;
 }
 .price-span {
   display: block;
@@ -472,4 +476,36 @@ body {
   line-height: 48px;
   text-align: center;
   color: #bdae82;
+}
+.price-items {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.btn4 {
+  width: 220px;
+  height: 55px;
+  background: #bdae82;
+  border: none;
+  cursor: pointer;
+  margin-top: 25px;
+  font-family: inherit;
+  align-items: center;
+  /*font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;*/
+  /* identical to box height, or 200% */
+
+  /*text-align: center;*/
+}
+.btn4:hover {
+  opacity: 0.9;
+}
+
+.btn4 {
+  margin-left: 100px;
+  margin-bottom: 20px;
 }
