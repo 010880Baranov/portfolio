@@ -414,3 +414,23 @@ body {
   width: 350px;
   height: 450px;
 }
+
+/*video-------------*/
+.video-player {
+  width: 1400px;
+  height: 705px;
+  background: url(/assets/img/video-player.png) no-repeat;
+}
+.video-player {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn3 {
+  opacity: 0.1;
+  color: #fff;
+}
+.btn3:hover {
+  cursor: pointer;
+}
