@@ -540,6 +540,10 @@ body {
 .input-group {
   width: 100%;
   box-sizing: border-box;
+  margin: 20px 20px 20px 0px;
+  border: 2px solid #bdae82;
+  background-color: rgba(0, 0, 0, 0.1);
+  background: inherit;
 }
 
 .input-group::placeholder {
@@ -547,13 +551,25 @@ body {
   color: #bdae82;
   font-size: 20px;
 }
+
+.textarea {
+  resize: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-text-fill-color: #bdae82;
+  transition: background-color 0s ease-in-out 9000s;
+}
+
 .btn5 {
   width: 220px;
   height: 55px;
   background: #bdae82;
   border: none;
   cursor: pointer;
-  margin-top: 25px;
   font-family: inherit;
   align-items: center;
 }
