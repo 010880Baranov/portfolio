@@ -510,3 +510,16 @@ body {
   margin-left: 100px;
   margin-bottom: 20px;
 }
+
+/*contacts--------------------*/
+.contacts {
+  height: 700px;
+  background: url(/assets/img/contacts.png);
+  margin-top: 100px;
+  
+}
+.contacts-container {
+  width: 450px;
+  height: 445px;
+  background-color: red;
+}
