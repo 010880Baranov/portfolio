@@ -523,7 +523,7 @@ body {
 .contacts-container {
   width: 450px;
   height: 445px;
-  background-color: red;
+  background-color: rgba(0, 0, 0, 0.1);
   position: absolute;
   top: 60px;
   right: 20px;
@@ -536,6 +536,17 @@ body {
   line-height: 80px;
   color: #bdae82;
 }
+
+.input-group {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input-group::placeholder {
+  font-family: inherit;
+  color: #bdae82;
+  font-size: 20px;
+}
 .btn5 {
   width: 220px;
   height: 55px;
@@ -545,9 +556,4 @@ body {
   margin-top: 25px;
   font-family: inherit;
   align-items: center;
-}
-.input-group::placeholder {
-  font-family: inherit;
-  color: #bdae82;
-  font-size: 20px;
 }
