@@ -543,7 +543,8 @@ body {
   margin: 20px 20px 20px 0px;
   border: 2px solid #bdae82;
   background-color: rgba(0, 0, 0, 0.1);
-  background: inherit;
+  background: transparent;
+  outline: none;
 }
 
 .input-group::placeholder {
@@ -552,7 +553,7 @@ body {
   font-size: 20px;
 }
 
-.textarea {
+.div .textarea {
   resize: none;
 }
 
