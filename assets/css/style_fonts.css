@@ -552,11 +552,18 @@ body {
   color: #bdae82;
   font-size: 20px;
 }
-.input-group.input {
+.input-group input {
   background: none;
   border: none;
+  color: #bdae82;
+  overflow: none;
 }
-.textarea {
+
+.input-group textarea {
+  background: none;
+  text-decoration: #bdae82;
+  border: none;
+  overflow: none;
   resize: none;
 }
 
