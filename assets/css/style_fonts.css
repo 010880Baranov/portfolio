@@ -543,7 +543,7 @@ body {
   margin: 20px 20px 20px 0px;
   border: 2px solid #bdae82;
   background-color: rgba(0, 0, 0, 0.1);
-  background: transparent;
+
   outline: none;
 }
 
@@ -552,8 +552,18 @@ body {
   color: #bdae82;
   font-size: 20px;
 }
+.input-group input {
+  background: none;
+  border: none;
+  color: #bdae82;
+  overflow: none;
+}
 
-.div .textarea {
+.input-group textarea {
+  background: none;
+  text-decoration: #bdae82;
+  border: none;
+  overflow: none;
   resize: none;
 }
 
