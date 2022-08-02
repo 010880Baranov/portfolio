@@ -552,8 +552,8 @@ body {
   color: #bdae82;
   font-size: 20px;
 }
-.contacts.input {
-  background-color: rgba(0, 0, 0, 0.1);
+.input-group.input {
+  background: none;
   border: none;
 }
 .textarea {
