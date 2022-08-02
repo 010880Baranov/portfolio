@@ -543,7 +543,7 @@ body {
   margin: 20px 20px 20px 0px;
   border: 2px solid #bdae82;
   background-color: rgba(0, 0, 0, 0.1);
-  background: transparent;
+
   outline: none;
 }
 
@@ -552,8 +552,11 @@ body {
   color: #bdae82;
   font-size: 20px;
 }
-
-.div .textarea {
+.contacts.input {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: none;
+}
+.textarea {
   resize: none;
 }
 
