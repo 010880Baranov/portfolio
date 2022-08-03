@@ -538,12 +538,12 @@ body {
 }
 
 .input-group {
+  display: block;
   width: 100%;
   box-sizing: border-box;
   margin: 20px 20px 20px 0px;
   border: 2px solid #bdae82;
   background-color: rgba(0, 0, 0, 0.1);
-
   outline: none;
 }
 
@@ -553,17 +553,18 @@ body {
   font-size: 20px;
 }
 .input-group input {
+  display: block;
   background: none;
   border: none;
   color: #bdae82;
-  overflow: none;
+  outline: none;
 }
 
 .input-group textarea {
   background: none;
-  text-decoration: #bdae82;
+  color: #bdae82;
   border: none;
-  overflow: none;
+  outline: none;
   resize: none;
 }
 
