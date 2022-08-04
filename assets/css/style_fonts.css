@@ -522,7 +522,7 @@ body {
 }
 .contacts-container {
   width: 450px;
-  height: 445px;
+  height: 600px;
   background-color: rgba(0, 0, 0, 0.1);
   position: absolute;
   top: 60px;
@@ -537,7 +537,48 @@ body {
   color: #bdae82;
 }
 
-.input-group {
+.contacts-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 450px;
+  float: right;
+  margin-top: 58px;
+  font-style: normal;
+  font-weight: normal;
+}
+#contacts-form-header {
+  text-align: start;
+  margin-top: 0px;
+  margin-bottom: 39px;
+}
+.contacts-form > input,
+.contacts-form > textarea {
+  font-family: inherit;
+  color: #bdae82;
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid #bdae82;
+  box-sizing: border-box;
+  border-radius: 0px;
+  height: 50px;
+  margin-bottom: 20px;
+  padding-left: 18px;
+}
+
+.contacts-form > textarea {
+  margin-bottom: 30px;
+  resize: none;
+  height: 100px;
+  padding-top: 10px;
+}
+.contacts-form::placeholder {
+  font-family: inherit;
+  color: #bdae82;
+  font-size: 20px;
+}
+
+/*.input-group {
   display: block;
   width: 100%;
   box-sizing: border-box;
@@ -566,7 +607,7 @@ body {
   border: none;
   outline: none;
   resize: none;
-}
+}*/
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -582,6 +623,10 @@ input:-webkit-autofill:active {
   background: #bdae82;
   border: none;
   cursor: pointer;
-  font-family: inherit;
-  align-items: center;
+  font-family: "inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 40px;
+  text-align: center;
 }
