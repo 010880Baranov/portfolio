@@ -177,13 +177,14 @@ body {
   line-height: 50px;
   color: #ffffff;
 }
-.github > a {
+.github a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 50px;
   color: #ffffff;
+  text-decoration: none;
 }
 
 a:hover {
@@ -192,14 +193,21 @@ a:hover {
   text-decoration: none;
 }
 
-.text1 {
+.text1 a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 50px;
   color: #ffffff;
+  text-decoration: none;
 }
+a:hover {
+  color: #bdae82;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .social_item {
   list-style: none;
   display: flex;
