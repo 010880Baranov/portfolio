@@ -214,7 +214,13 @@ a:hover {
   align-items: center;
   gap: 20px;
 }
-.social_list {
+.social_item_list a {
+  text-decoration: none;
+}
+a:hover {
+  color: #bdae82;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 /*Hero-------------------------------*/
