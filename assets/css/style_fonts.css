@@ -285,16 +285,17 @@ a:hover {
   cursor: pointer;
   margin-top: 25px;
   font-family: inherit;
-  /*font-style: normal;
+  font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 40px;*/
+  line-height: 40px;
   /* identical to box height, or 200% */
 
   /*text-align: center;*/
 }
 .btn1:hover {
   opacity: 0.9;
+  color: #fff;
 }
 
 /*skills--------------*/
@@ -387,16 +388,17 @@ a:hover {
   cursor: pointer;
   margin-top: 25px;
   font-family: inherit;
-  /*font-style: normal;
+  font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 40px;*/
+  line-height: 40px;
   /* identical to box height, or 200% */
 
-  /*text-align: center;*/
+  text-align: center;
 }
 .btn2:hover {
   opacity: 0.9;
+  color: #fff;
 }
 .portfolio-btns {
   text-align: center;
