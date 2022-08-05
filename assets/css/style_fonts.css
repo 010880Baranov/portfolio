@@ -432,7 +432,7 @@ a:hover {
   position: absolute; /* абсолютное позиционирование для управления линиями */
   border-bottom: 2px solid #bdae82; /* бордер псевдо дива, т.е. сама линия */
   top: 50%; /* позиционирование по вертикали */
-  right: 120px; /* позиционирование по горизонтали */
+  right: 200px; /* позиционирование по горизонтали */
 }
 .pf span:after {
   display: block;
@@ -441,7 +441,7 @@ a:hover {
   position: absolute;
   border-bottom: 2px solid #bdae82;
   top: 50%;
-  left: 120px;
+  left: 200px;
 }
 
 .portfolio-items {
@@ -482,6 +482,43 @@ a:hover {
 .btn3:hover {
   cursor: pointer;
 }
+.pv {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 80px;
+  /* identical to box height, or 200% */
+  text-align: center;
+  color: #bdae82;
+}
+.pv {
+  text-align: center; /* выравнивание заголовка по центру обертки */
+  width: 50%; /* ширина обертки. На самом деле для фиксированной верстки можно использовать и px, но лучше сразу адаптировать под разные устройства, т.к. это, что называется, тренди :-) */
+  margin: 0 auto; /* выравнивание обертки по центру документа */
+  overflow: hidden; /* прячем линии за границами обертки, чтобы в случае изменения ширины экрана линии не выходили за ее пределы */
+}
+.pv span {
+  position: relative;
+}
+.pv span::before {
+  display: block; /* делаем псевдоэлемент блоком для последующего работы с ним, как с простым div'ом */
+  width: 1000px; /* устанавливаем ширину линию. Можно использовать произвольную ширину */
+  content: ""; /* позволяет вставлять генерируемое содержание в текст страницы, которое первоначально в тексте отсутствует */
+  position: absolute; /* абсолютное позиционирование для управления линиями */
+  border-bottom: 2px solid #bdae82; /* бордер псевдо дива, т.е. сама линия */
+  top: 50%; /* позиционирование по вертикали */
+  right: 120px; /* позиционирование по горизонтали */
+}
+.pv span:after {
+  display: block;
+  width: 1000px;
+  content: "";
+  position: absolute;
+  border-bottom: 2px solid #bdae82;
+  top: 50%;
+  left: 120px;
+}
 
 /*price---------*/
 .section-title {
@@ -502,6 +539,43 @@ a:hover {
   line-height: 36px;
   text-align: center;
   color: #ffffff;
+}
+.pc {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 80px;
+  /* identical to box height, or 200% */
+  text-align: center;
+  color: #bdae82;
+}
+.pc {
+  text-align: center; /* выравнивание заголовка по центру обертки */
+  width: 50%; /* ширина обертки. На самом деле для фиксированной верстки можно использовать и px, но лучше сразу адаптировать под разные устройства, т.к. это, что называется, тренди :-) */
+  margin: 0 auto; /* выравнивание обертки по центру документа */
+  overflow: hidden; /* прячем линии за границами обертки, чтобы в случае изменения ширины экрана линии не выходили за ее пределы */
+}
+.pc span {
+  position: relative;
+}
+.pc span::before {
+  display: block; /* делаем псевдоэлемент блоком для последующего работы с ним, как с простым div'ом */
+  width: 1000px; /* устанавливаем ширину линию. Можно использовать произвольную ширину */
+  content: ""; /* позволяет вставлять генерируемое содержание в текст страницы, которое первоначально в тексте отсутствует */
+  position: absolute; /* абсолютное позиционирование для управления линиями */
+  border-bottom: 2px solid #bdae82; /* бордер псевдо дива, т.е. сама линия */
+  top: 50%; /* позиционирование по вертикали */
+  right: 120px; /* позиционирование по горизонтали */
+}
+.pc span:after {
+  display: block;
+  width: 1000px;
+  content: "";
+  position: absolute;
+  border-bottom: 2px solid #bdae82;
+  top: 50%;
+  left: 120px;
 }
 
 .h3-title {
