@@ -432,7 +432,7 @@ a:hover {
   position: absolute; /* абсолютное позиционирование для управления линиями */
   border-bottom: 2px solid #bdae82; /* бордер псевдо дива, т.е. сама линия */
   top: 50%; /* позиционирование по вертикали */
-  right: 200px; /* позиционирование по горизонтали */
+  right: 120px; /* позиционирование по горизонтали */
 }
 .pf span:after {
   display: block;
@@ -441,7 +441,7 @@ a:hover {
   position: absolute;
   border-bottom: 2px solid #bdae82;
   top: 50%;
-  left: 200px;
+  left: 120px;
 }
 
 .portfolio-items {
@@ -485,11 +485,13 @@ a:hover {
 
 /*price---------*/
 .section-title {
-  margin-top: 30px;
+  margin-top: 70px;
 }
 .price-item {
   width: 450px;
+  height: 550px;
   border: #bdae82 solid 2px;
+  padding-top: 40px;
 }
 .price-span {
   display: block;
@@ -519,6 +521,7 @@ a:hover {
   line-height: 48px;
   text-align: center;
   color: #bdae82;
+  padding: 20px 0px;
 }
 .price-items {
   display: flex;
@@ -536,16 +539,16 @@ a:hover {
   margin-top: 25px;
   font-family: inherit;
   align-items: center;
-  /*font-style: normal;
+  font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 40px;*/
+  line-height: 40px;
   /* identical to box height, or 200% */
-
-  /*text-align: center;*/
+  text-align: center;
 }
 .btn4:hover {
   opacity: 0.9;
+  color: #fff;
 }
 
 .btn4 {
