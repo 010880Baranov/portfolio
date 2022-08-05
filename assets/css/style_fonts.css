@@ -460,9 +460,7 @@ a:hover {
 }
 
 /*video-------------*/
-.video {
-  padding-top: 50px;
-}
+
 .video-player {
   height: 705px;
   background: url(/assets/img/video-player.png) no-repeat;
@@ -473,7 +471,16 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
+.play {
+  background: url(/assets/img/Play_hover_3.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+  width: 130px;
+  height: 130px;
+}
 .btn3 {
+  border: none;
   position: absolute;
   opacity: 0.5;
   color: #fff;
@@ -481,6 +488,7 @@ a:hover {
 }
 .btn3:hover {
   cursor: pointer;
+  color: #bdae82;
 }
 .pv {
   font-family: "Merriweather";
@@ -491,6 +499,7 @@ a:hover {
   /* identical to box height, or 200% */
   text-align: center;
   color: #bdae82;
+  padding-bottom: 20px;
 }
 .pv {
   text-align: center; /* выравнивание заголовка по центру обертки */
@@ -522,7 +531,7 @@ a:hover {
 
 /*price---------*/
 .section-title {
-  margin-top: 70px;
+  margin-top: 50px;
 }
 .price-item {
   width: 450px;
