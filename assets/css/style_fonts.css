@@ -222,6 +222,28 @@ a:hover {
   cursor: pointer;
   text-decoration: none;
 }
+.social_item .instagram {
+  background-image: url(/assets/img/inst\ 1.svg);
+}
+.social_item .icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+  width: 32px;
+  height: 32px;
+}
+.icon:hover {
+  color: #bdae82;
+}
+.social_item .facebook {
+  background-image: url(/assets/img/fb\ 1.svg);
+}
+.social_item .twiter {
+  background-image: url(/assets/img/tw\ 1.svg);
+}
+.social_item .pinterest {
+  background-image: url(/assets/img/pinterest\ 1.svg);
+}
 
 /*Hero-------------------------------*/
 .hero {
@@ -232,7 +254,7 @@ a:hover {
   top: 226px;
 }
 .section1 {
-  height: 910px;
+  height: 810px;
   background-image: url(../img/header-bg.jpeg);
   background-position: center -90px;
   background-repeat: no-repeat;
@@ -263,16 +285,17 @@ a:hover {
   cursor: pointer;
   margin-top: 25px;
   font-family: inherit;
-  /*font-style: normal;
+  font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 40px;*/
+  line-height: 40px;
   /* identical to box height, or 200% */
 
   /*text-align: center;*/
 }
 .btn1:hover {
   opacity: 0.9;
+  color: #fff;
 }
 
 /*skills--------------*/
@@ -301,7 +324,7 @@ a:hover {
   position: absolute; /* абсолютное позиционирование для управления линиями */
   border-bottom: 2px solid #bdae82; /* бордер псевдо дива, т.е. сама линия */
   top: 50%; /* позиционирование по вертикали */
-  right: 200px; /* позиционирование по горизонтали */
+  right: 120px; /* позиционирование по горизонтали */
 }
 .section2 span:after {
   display: block;
@@ -310,7 +333,7 @@ a:hover {
   position: absolute;
   border-bottom: 2px solid #bdae82;
   top: 50%;
-  left: 200px;
+  left: 120px;
 }
 
 /*.skills_title {
@@ -319,7 +342,7 @@ a:hover {
 }*/
 
 .skills_items {
-  padding: 30px 0 0 0;
+  margin: 30px 0 0 0;
 }
 .skills_items {
   display: flex;
@@ -327,8 +350,8 @@ a:hover {
   /*flex-wrap: wrap;*/
 }
 .skills_item {
-  width: 320px;
-  height: 240px;
+  width: 300px;
+  height: 380px;
   margin-left: 30px;
   margin-right: 30px;
 }
@@ -340,7 +363,7 @@ a:hover {
   line-height: 40px;
   text-align: center;
   color: #ffffff;
-  padding: 50px 0 0 0;
+  margin: 50px 0 20px 0;
 }
 .high {
   font-family: "Inter";
@@ -353,9 +376,9 @@ a:hover {
 }
 
 /*portfolio----------*/
-.section3 {
+/*.section3 {
   padding: 50px 0 0 0;
-}
+}*/
 .btn2 {
   width: 220px;
   height: 55px;
@@ -365,16 +388,17 @@ a:hover {
   cursor: pointer;
   margin-top: 25px;
   font-family: inherit;
-  /*font-style: normal;
+  font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 40px;*/
+  line-height: 40px;
   /* identical to box height, or 200% */
 
-  /*text-align: center;*/
+  text-align: center;
 }
 .btn2:hover {
   opacity: 0.9;
+  color: #fff;
 }
 .portfolio-btns {
   text-align: center;
@@ -438,9 +462,7 @@ a:hover {
 }
 
 /*video-------------*/
-.video {
-  padding-top: 50px;
-}
+
 .video-player {
   height: 705px;
   background: url(/assets/img/video-player.png) no-repeat;
@@ -451,7 +473,16 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
+.play {
+  background: url(/assets/img/Play_hover_3.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+  width: 130px;
+  height: 130px;
+}
 .btn3 {
+  border: none;
   position: absolute;
   opacity: 0.5;
   color: #fff;
@@ -459,15 +490,56 @@ a:hover {
 }
 .btn3:hover {
   cursor: pointer;
+  color: #bdae82;
+}
+.pv {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 80px;
+  /* identical to box height, or 200% */
+  text-align: center;
+  color: #bdae82;
+  padding-bottom: 20px;
+}
+.pv {
+  text-align: center; /* выравнивание заголовка по центру обертки */
+  width: 50%; /* ширина обертки. На самом деле для фиксированной верстки можно использовать и px, но лучше сразу адаптировать под разные устройства, т.к. это, что называется, тренди :-) */
+  margin: 0 auto; /* выравнивание обертки по центру документа */
+  overflow: hidden; /* прячем линии за границами обертки, чтобы в случае изменения ширины экрана линии не выходили за ее пределы */
+}
+.pv span {
+  position: relative;
+}
+.pv span::before {
+  display: block; /* делаем псевдоэлемент блоком для последующего работы с ним, как с простым div'ом */
+  width: 1000px; /* устанавливаем ширину линию. Можно использовать произвольную ширину */
+  content: ""; /* позволяет вставлять генерируемое содержание в текст страницы, которое первоначально в тексте отсутствует */
+  position: absolute; /* абсолютное позиционирование для управления линиями */
+  border-bottom: 2px solid #bdae82; /* бордер псевдо дива, т.е. сама линия */
+  top: 50%; /* позиционирование по вертикали */
+  right: 120px; /* позиционирование по горизонтали */
+}
+.pv span:after {
+  display: block;
+  width: 1000px;
+  content: "";
+  position: absolute;
+  border-bottom: 2px solid #bdae82;
+  top: 50%;
+  left: 120px;
 }
 
 /*price---------*/
 .section-title {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 .price-item {
   width: 450px;
+  height: 550px;
   border: #bdae82 solid 2px;
+  padding-top: 40px;
 }
 .price-span {
   display: block;
@@ -478,6 +550,43 @@ a:hover {
   line-height: 36px;
   text-align: center;
   color: #ffffff;
+}
+.pc {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 80px;
+  /* identical to box height, or 200% */
+  text-align: center;
+  color: #bdae82;
+}
+.pc {
+  text-align: center; /* выравнивание заголовка по центру обертки */
+  width: 50%; /* ширина обертки. На самом деле для фиксированной верстки можно использовать и px, но лучше сразу адаптировать под разные устройства, т.к. это, что называется, тренди :-) */
+  margin: 0 auto; /* выравнивание обертки по центру документа */
+  overflow: hidden; /* прячем линии за границами обертки, чтобы в случае изменения ширины экрана линии не выходили за ее пределы */
+}
+.pc span {
+  position: relative;
+}
+.pc span::before {
+  display: block; /* делаем псевдоэлемент блоком для последующего работы с ним, как с простым div'ом */
+  width: 1000px; /* устанавливаем ширину линию. Можно использовать произвольную ширину */
+  content: ""; /* позволяет вставлять генерируемое содержание в текст страницы, которое первоначально в тексте отсутствует */
+  position: absolute; /* абсолютное позиционирование для управления линиями */
+  border-bottom: 2px solid #bdae82; /* бордер псевдо дива, т.е. сама линия */
+  top: 50%; /* позиционирование по вертикали */
+  right: 120px; /* позиционирование по горизонтали */
+}
+.pc span:after {
+  display: block;
+  width: 1000px;
+  content: "";
+  position: absolute;
+  border-bottom: 2px solid #bdae82;
+  top: 50%;
+  left: 120px;
 }
 
 .h3-title {
@@ -497,6 +606,7 @@ a:hover {
   line-height: 48px;
   text-align: center;
   color: #bdae82;
+  padding: 20px 0px;
 }
 .price-items {
   display: flex;
@@ -514,16 +624,16 @@ a:hover {
   margin-top: 25px;
   font-family: inherit;
   align-items: center;
-  /*font-style: normal;
+  font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 40px;*/
+  line-height: 40px;
   /* identical to box height, or 200% */
-
-  /*text-align: center;*/
+  text-align: center;
 }
 .btn4:hover {
   opacity: 0.9;
+  color: #fff;
 }
 
 .btn4 {
