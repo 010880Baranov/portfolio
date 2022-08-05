@@ -222,6 +222,16 @@ a:hover {
   cursor: pointer;
   text-decoration: none;
 }
+.instagram_icon {
+  background-image: url(/assets/img/inst\ 1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+}
+.instagram_icon a:hover {
+  color: #bdae82;
+}
 
 /*Hero-------------------------------*/
 .hero {
