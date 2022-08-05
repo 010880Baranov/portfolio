@@ -222,15 +222,27 @@ a:hover {
   cursor: pointer;
   text-decoration: none;
 }
-.instagram_icon {
+.social_item .instagram {
   background-image: url(/assets/img/inst\ 1.svg);
+}
+.social_item .icon {
   background-size: contain;
   background-repeat: no-repeat;
+  transition: 0.3s;
   width: 32px;
   height: 32px;
 }
-.instagram_icon a:hover {
+.icon:hover {
   color: #bdae82;
+}
+.social_item .facebook {
+  background-image: url(/assets/img/fb\ 1.svg);
+}
+.social_item .twiter {
+  background-image: url(/assets/img/tw\ 1.svg);
+}
+.social_item .pinterest {
+  background-image: url(/assets/img/pinterest\ 1.svg);
 }
 
 /*Hero-------------------------------*/
