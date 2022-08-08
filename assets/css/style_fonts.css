@@ -232,8 +232,9 @@ a:hover {
   width: 32px;
   height: 32px;
 }
-.icon:hover {
-  color: #bdae82;
+.social_item_list:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
 }
 .social_item .facebook {
   background-image: url(/assets/img/fb\ 1.svg);
@@ -490,7 +491,8 @@ a:hover {
 }
 .btn3:hover {
   cursor: pointer;
-  color: #bdae82;
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
 }
 .pv {
   font-family: "Merriweather";
