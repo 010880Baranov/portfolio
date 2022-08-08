@@ -140,6 +140,12 @@ body {
   /* identical to box height, or 250% */
   text-align: center;
 }
+.block1 {
+  display: flex;
+  gap: 8px;
+  font-weight: bold;
+  align-items: center;
+}
 
 /* Footer------------------------------------*/
 .footer {
@@ -704,7 +710,7 @@ a:hover {
   height: 100px;
   padding-top: 10px;
 }
-.contacts-form > input {
+.contacts-form::placeholder {
   font-family: "inter";
   color: #bdae82;
   font-size: 20px;
