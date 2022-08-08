@@ -140,6 +140,12 @@ body {
   /* identical to box height, or 250% */
   text-align: center;
 }
+.block1 {
+  display: flex;
+  gap: 8px;
+  font-weight: bold;
+  align-items: center;
+}
 
 /* Footer------------------------------------*/
 .footer {
@@ -232,8 +238,9 @@ a:hover {
   width: 32px;
   height: 32px;
 }
-.icon:hover {
-  color: #bdae82;
+.social_item_list:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
 }
 .social_item .facebook {
   background-image: url(/assets/img/fb\ 1.svg);
@@ -490,7 +497,8 @@ a:hover {
 }
 .btn3:hover {
   cursor: pointer;
-  color: #bdae82;
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
 }
 .pv {
   font-family: "Merriweather";
@@ -702,7 +710,7 @@ a:hover {
   height: 100px;
   padding-top: 10px;
 }
-.contacts-form > input {
+.contacts-form::placeholder {
   font-family: "inter";
   color: #bdae82;
   font-size: 20px;
