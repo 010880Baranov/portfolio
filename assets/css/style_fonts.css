@@ -703,6 +703,9 @@ a:hover {
   margin-bottom: 20px;
   padding-left: 18px;
 }
+.contacts-form > input::placeholder {
+  color: #bdae82;
+}
 
 .contacts-form > textarea {
   margin-bottom: 30px;
@@ -710,10 +713,8 @@ a:hover {
   height: 100px;
   padding-top: 10px;
 }
-.contacts-form::placeholder {
-  font-family: "inter";
+.contacts-form > textarea::placeholder {
   color: #bdae82;
-  font-size: 20px;
 }
 
 /*.input-group {
