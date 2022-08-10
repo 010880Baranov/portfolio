@@ -288,7 +288,7 @@ a:hover {
   width: 220px;
   height: 55px;
   background: #bdae82;
-  border: none;
+  border: 1px solid #bdae82;
   cursor: pointer;
   margin-top: 25px;
   font-family: inherit;
@@ -296,15 +296,33 @@ a:hover {
   font-weight: 400;
   font-size: 20px;
   line-height: 40px;
-  transition: all 1s ease;
+  transition: all 0.5s ease;
   /* identical to box height, or 200% */
 
   /*text-align: center;*/
 }
+.btn1 {
+  box-shadow: 5px 5px 10px #bbc3bb, -5px -5px 10px rgb(157 140 235);
+}
 .btn1:hover {
-  transform: scale3d(1.3, 1.2, 0.3);
+  /*transform: scale3d(1.3, 1.2, 0.3);*/
   opacity: 0.9;
   color: #fff;
+}
+/* Эффект при нажатии */
+.btn1:active {
+  /* Добавляем псевдокласс :active */
+  width: 219px; /* Уменьшаем ширину */
+  height: 54px; /* Уменьшаем высоту */
+  box-shadow: 1px 1px 3px #bdae82;
+  /*box-shadow: 0 0 hsl(5, 60%, 60%); /* Уменьшаем тень */*/
+  /*border: 3px solid #bdae82; */ /* Уменьшаем толщину рамки */
+  /*background: linear-gradient(top, hsl(0, 90%, 90%), hsl(0, 100%, 50%) 90%);*/
+  /*background: -webkit-linear-gradient(
+    top,
+    hsl(0, 90%, 90%),
+    hsl(0, 100%, 50%) 90%
+  ); */ /* Изменяем значения линейного градиента */
 }
 
 /*skills--------------*/
@@ -640,12 +658,18 @@ a:hover {
   line-height: 40px;
   /* identical to box height, or 200% */
   text-align: center;
-  transition: all 1s ease;
+}
+.btn4 {
+  box-shadow: 5px 5px 10px #bbc3bb, -5px -5px 10px rgb(157 140 235);
 }
 .btn4:hover {
-  transform: scale(1.1);
-  opacity: 0.8;
+  opacity: 0.9;
   color: #fff;
+}
+.btn4:active {
+  width: 219px;
+  height: 54px;
+  box-shadow: 1px 1px 3px #bdae82;
 }
 
 .btn4 {
@@ -707,9 +731,6 @@ a:hover {
   margin-bottom: 20px;
   padding-left: 18px;
 }
-.contacts-form > input::placeholder {
-  color: #bdae82;
-}
 
 .contacts-form > textarea {
   margin-bottom: 30px;
@@ -717,8 +738,10 @@ a:hover {
   height: 100px;
   padding-top: 10px;
 }
-.contacts-form > textarea::placeholder {
+.contacts-form::placeholder {
+  font-family: "inter";
   color: #bdae82;
+  font-size: 20px;
 }
 
 /*.input-group {
@@ -772,10 +795,13 @@ input:-webkit-autofill:active {
   font-weight: normal;
   line-height: 40px;
   text-align: center;
-  transition: all 1s ease;
-  transform-origin: 0 0;
 }
 .btn5:hover {
+  opacity: 0.9;
   color: #fff;
-  transform: scale(1.1);
+}
+.btn5:active {
+  width: 219px;
+  height: 54px;
+
 }
