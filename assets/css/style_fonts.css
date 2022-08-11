@@ -427,6 +427,49 @@ a:hover {
   opacity: 0.9;
   color: #fff;
 }
+
+.btn5 {
+  width: 220px;
+  height: 55px;
+  background: #bdae82;
+  border: 1px solid #bdae82;
+  cursor: pointer;
+  margin-top: 25px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  transition: all 0.5s ease;
+  /* identical to box height, or 200% */
+
+  /*text-align: center;*/
+}
+
+.btn5:hover {
+  /*transform: scale3d(1.3, 1.2, 0.3);*/
+  opacity: 0.9;
+  color: #fff;
+}
+/* Эффект при нажатии */
+.btn5:active {
+  /* Добавляем псевдокласс :active */
+  width: 219px; /* Уменьшаем ширину */
+  height: 54px; /* Уменьшаем высоту */
+  border: 3px solid #bdae82;
+  /*box-shadow: 0 0 hsl(5, 60%, 60%); /* Уменьшаем тень */*/
+  /*border: 3px solid #bdae82; */ /* Уменьшаем толщину рамки */
+  /*background: linear-gradient(top, hsl(0, 90%, 90%), hsl(0, 100%, 50%) 90%);*/
+  /*background: -webkit-linear-gradient(
+    top,
+    hsl(0, 90%, 90%),
+    hsl(0, 100%, 50%) 90%
+  ); */ /* Изменяем значения линейного градиента */
+}
+
+
+
+
 .portfolio-btns {
   text-align: center;
 }
