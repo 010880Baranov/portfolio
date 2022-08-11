@@ -607,8 +607,8 @@ a:hover {
   margin-top: 50px;
 }
 .price-item {
-  width: 450px;
-  height: 550px;
+  width: 400px;
+  height: 500px;
   border: #bdae82 solid 2px;
   padding-top: 40px;
 }
@@ -682,6 +682,7 @@ a:hover {
 .price-items {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   gap: 20px;
   margin-top: 30px;
 }
@@ -716,7 +717,7 @@ a:hover {
 }
 
 .btn4 {
-  margin-left: 100px;
+  margin-left: 80px;
   margin-bottom: 20px;
 }
 
