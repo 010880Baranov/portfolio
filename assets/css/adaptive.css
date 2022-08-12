@@ -1,0 +1,29 @@
+/*large device*/
+@media only screen and (max-width: 1500px) {
+  /* */
+}
+
+/*large device*/
+@media only screen and (max-width: 1200px) {
+  /* */
+}
+
+/*medium device*/
+@media only screen and (max-width: 992px) {
+  /* */
+}
+
+/*small device*/
+@media only screen and (max-width: 768px) {
+  /* */
+}
+
+/*extra small device*/
+@media only screen and (max-width: 480px) {
+  /* */
+}
+
+/*custom device*/
+@media only screen and (max-width: 320px) {
+  /* */
+}
