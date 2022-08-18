@@ -17,22 +17,38 @@
 @media only screen and (max-width: 768px) {
   /* */
   .hero_title > h1 {
-    font-weight: bold;
+    font-family: "Merriweather";
+    font-weight: regular;
     font-size: 32px;
     line-height: 60px;
     margin: 0;
   }
   .skills_title > h2 > span {
-    font-size: 30px;
+    font-family: "Merriweather";
+    font-weight: bold;
+    font-size: 32px;
   }
   .digital {
-    font-size: 18px;
+    font-family: "inter";
+    font-weight: bold;
+    font-size: 20px;
   }
   .high {
-    font-size: 15px;
+    font-family: "Inter";
+    font-weight: regular;
+    font-size: 18px;
   }
+  .skills_item {
+    width: 300px;
+    height: 224px;
+    margin-bottom: 40px;
 }
-
+.pf {
+    font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+}
 /*extra small device*/
 @media only screen and (max-width: 480px) {
   /* */
