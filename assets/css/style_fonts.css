@@ -765,7 +765,7 @@ a:hover {
 }
 .contacts-form > input,
 .contacts-form > textarea {
-  font-family: inherit;
+  font-family: "inter";
   color: #bdae82;
   font-size: 20px;
   background: rgba(0, 0, 0, 0.5);
@@ -783,7 +783,7 @@ a:hover {
   height: 100px;
   padding-top: 10px;
 }
-.contacts-form::placeholder {
+.input::placeholder {
   font-family: "inter";
   color: #bdae82;
   font-size: 20px;

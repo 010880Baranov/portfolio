@@ -49,6 +49,21 @@
   font-weight: 700;
   font-size: 32px;
 }
+.portfolio-btns .btn2 .btn5 {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 20px;
+}
+.pv {
+    font-family: "Merriweather";
+    font-weight: 700;
+    font-size: 32px;
+}
+.pc {
+    font-family: "Merriweather";
+    font-weight: 700;
+    font-size: 32px;
+}
 /*extra small device*/
 @media only screen and (max-width: 480px) {
   /* */
