@@ -763,10 +763,9 @@ a:hover {
   margin-top: 0px;
   margin-bottom: 39px;
 }
-.contacts-form > input,
-.contacts-form > textarea {
+.contacts-form > input {
   font-family: "inter";
-  color: #bdae82;
+  /*color: #bdae82;*/
   font-size: 20px;
   background: rgba(0, 0, 0, 0.5);
   border: 2px solid #bdae82;
@@ -783,10 +782,22 @@ a:hover {
   height: 100px;
   padding-top: 10px;
 }
-.input::placeholder {
+.contacts-form > input::placeholder {
   font-family: "inter";
   color: #bdae82;
   font-size: 20px;
+}
+
+.contacts-form > textarea {
+  font-family: "inter";
+  color: #bdae82;
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid #bdae82;
+  box-sizing: border-box;
+  border-radius: 0px;
+  margin-bottom: 20px;
+  padding-left: 18px;
 }
 
 /*.input-group {
@@ -849,4 +860,90 @@ input:-webkit-autofill:active {
   width: 219px;
   height: 54px;
 
+}
+
+/* burger -----------------------*/
+.menu-btn{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  right: 5px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+.menu-btn {
+  opacity: 0;
+}
+/*Задаем стили нашему label и span внутри него, чтобы он стал кнопкой в виде бургера.*/
+.menu-btn > span,
+.menu-btn > span::before,
+.menu-btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  transition-duration: .25s;
+}
+.menu-btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu-btn > span::after {
+  content: '';
+  top: 8px;
+}
+/*Далее задаем стили для нашего меню, то бишь ul списку.*/
+.menubox{
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  background-color: #ECEFF1;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  transition-duration: .25s;
+}
+
+.menu-item {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  transition-duration: .25s;
+}
+.menu-item:hover {
+  background-color: #CFD8DC;
+}
+
+/*Теперь скрываем стандартный чекбокс в виде галочки.*/
+#menu-toggle{
+  opacity: 0;
+}
+
+#menu-toggle:checked ~ .menu-btn > span{
+  transform: rotate(45deg);
+}
+#menu-toggle:checked ~ .menu-btn > span::before{
+  top: 0;
+  transform: rotate(0);
+}
+#menu-toggle:checked ~ .menu-btn > span::after{
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu-toggle:checked ~ .menubox{
+  visibility: visible;
+  left: 0;
 }
