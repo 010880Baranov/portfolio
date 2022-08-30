@@ -230,7 +230,7 @@ a:hover {
   text-decoration: none;
 }
 .social_item .instagram {
-  background-image: url(./assets/img/inst\ 1.svg);
+  background-image: url(/assets/img/inst\ 1.svg);
 }
 .social_item .icon {
   background-size: contain;
@@ -244,13 +244,13 @@ a:hover {
     contrast(87%);
 }
 .social_item .facebook {
-  background-image: url(./assets/img/fb\ 1.svg);
+  background-image: url(/assets/img/fb\ 1.svg);
 }
 .social_item .twiter {
-  background-image: url(./assets/img/tw\ 1.svg);
+  background-image: url(/assets/img/tw\ 1.svg);
 }
 .social_item .pinterest {
-  background-image: url(./assets/img/pinterest\ 1.svg);
+  background-image: url(/assets/img/pinterest\ 1.svg);
 }
 
 /*Hero-------------------------------*/
@@ -536,7 +536,7 @@ a:hover {
 
 .video-player {
   height: 705px;
-  background: url(./assets/img/video-player.png) no-repeat;
+  background: url(/assets/img/video-player.png) no-repeat;
 }
 .video-player {
   position: relative;
@@ -545,7 +545,7 @@ a:hover {
   align-items: center;
 }
 .play {
-  background: url(./assets/img/Play_hover_3.svg);
+  background: url(/assets/img/Play_hover_3.svg);
   background-size: contain;
   background-repeat: no-repeat;
   transition: 0.3s;
@@ -725,7 +725,7 @@ a:hover {
 /*contacts--------------------*/
 .contacts {
   height: 700px;
-  background: url(./assets/img/contacts.png);
+  background: url(/assets/img/contacts.png);
   background-size: auto 700px;
   background-position: center center;
   margin-top: 100px;
