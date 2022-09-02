@@ -230,7 +230,7 @@ a:hover {
   text-decoration: none;
 }
 .social_item .instagram {
-  background-image: url(./assets/img/inst\ 1.svg);
+  background-image: url(../img/inst\ 1.svg);
 }
 .social_item .icon {
   background-size: contain;
@@ -244,13 +244,13 @@ a:hover {
     contrast(87%);
 }
 .social_item .facebook {
-  background-image: url(./assets/img/fb\ 1.svg);
+  background-image: url(../img/fb\ 1.svg);
 }
 .social_item .twiter {
-  background-image: url(./assets/img/tw\ 1.svg);
+  background-image: url(../img/tw\ 1.svg);
 }
 .social_item .pinterest {
-  background-image: url(./assets/img/pinterest\ 1.svg);
+  background-image: url(../img/pinterest\ 1.svg);
 }
 
 /*Hero-------------------------------*/
@@ -327,6 +327,11 @@ a:hover {
 }
 
 /*skills--------------*/
+.skills_items {
+  max-width: 1440px;
+  padding: 0px 20px;
+}
+
 .section2 {
   font-family: "Merriweather";
   font-style: normal;
@@ -380,8 +385,8 @@ a:hover {
 .skills_item {
   width: 250px;
   height: 350px;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 .digital {
   font-family: "Inter";
@@ -407,6 +412,13 @@ a:hover {
 /*.section3 {
   padding: 50px 0 0 0;
 }*/
+
+.portfolio {
+  max-width: 1440px;
+  margin: 0px auto;
+  padding: 0px 20px;
+}
+
 .btn2 {
   width: 220px;
   height: 55px;
@@ -534,9 +546,15 @@ a:hover {
 
 /*video-------------*/
 
+.video {
+  max-width: 1440px;
+  margin: 0px auto;
+  padding: 0px 20px;
+}
+
 .video-player {
   height: 705px;
-  background: url(./assets/img/video-player.png) no-repeat;
+  background: url(../img/video-player.png) no-repeat;
 }
 .video-player {
   position: relative;
@@ -545,7 +563,7 @@ a:hover {
   align-items: center;
 }
 .play {
-  background: url(./assets/img/Play_hover_3.svg);
+  background: url(../img/play_hover_3.svg);
   background-size: contain;
   background-repeat: no-repeat;
   transition: 0.3s;
@@ -604,11 +622,18 @@ a:hover {
 }
 
 /*price---------*/
+.price {
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 0px 20px;
+  }
+
+
 .section-title {
   margin-top: 50px;
 }
 .price-item {
-  width: 400px;
+  width: 350px;
   height: 500px;
   border: #bdae82 solid 2px;
   padding-top: 40px;
@@ -718,18 +743,22 @@ a:hover {
 }
 
 .btn4 {
-  margin-left: 80px;
+  margin-left: 70px;
   margin-bottom: 20px;
 }
 
 /*contacts--------------------*/
 .contacts {
   height: 700px;
-  background: url(./assets/img/contacts.png);
+  background: url(../img/contacts.png);
   background-size: auto 700px;
   background-position: center center;
   margin-top: 100px;
   position: relative;
+}
+.contacts {
+  max-width: 1440px;
+  padding: 0px 20px;
 }
 .contacts-container {
   width: 450px;
