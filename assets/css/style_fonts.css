@@ -622,11 +622,18 @@ a:hover {
 }
 
 /*price---------*/
+.price {
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 0px 20px;
+  }
+
+
 .section-title {
   margin-top: 50px;
 }
 .price-item {
-  width: 400px;
+  width: 350px;
   height: 500px;
   border: #bdae82 solid 2px;
   padding-top: 40px;
@@ -736,7 +743,7 @@ a:hover {
 }
 
 .btn4 {
-  margin-left: 80px;
+  margin-left: 70px;
   margin-bottom: 20px;
 }
 
@@ -748,6 +755,10 @@ a:hover {
   background-position: center center;
   margin-top: 100px;
   position: relative;
+}
+.contacts {
+  max-width: 1440px;
+  padding: 0px 20px;
 }
 .contacts-container {
   width: 450px;
