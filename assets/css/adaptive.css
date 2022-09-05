@@ -66,8 +66,10 @@
 }
 .menu-btn {
   opacity: 1;
-  
-}
+  }
+.menu-btn {
+    z-index: 5;
+  }
 .menu_list {
   opacity: 0;
 }
