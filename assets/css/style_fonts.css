@@ -78,6 +78,7 @@ body {
 /* Header----------------------------*/
 
 .container {
+  box-sizing: border-box;
   max-width: 1440px;
   min-height: 90px;
   margin: 0px auto;
@@ -145,6 +146,14 @@ body {
   gap: 8px;
   font-weight: bold;
   align-items: center;
+}
+
+/*main--------*/
+.main-container {
+  box-sizing: border-box;
+  max-width: 1440px;
+  margin: 0px auto;
+ /* padding: 0px 20px;*/
 }
 
 /* Footer------------------------------------*/
@@ -230,7 +239,7 @@ a:hover {
   text-decoration: none;
 }
 .social_item .instagram {
-  background-image: url(../img/inst\ 1.svg);
+  background-image: url(../img/inst.svg);
 }
 .social_item .icon {
   background-size: contain;
@@ -244,13 +253,13 @@ a:hover {
     contrast(87%);
 }
 .social_item .facebook {
-  background-image: url(../img/fb\ 1.svg);
+  background-image: url(../img/fb.svg);
 }
 .social_item .twiter {
-  background-image: url(../img/tw\ 1.svg);
+  background-image: url(../img/tw.svg);
 }
 .social_item .pinterest {
-  background-image: url(../img/pinterest\ 1.svg);
+  background-image: url(../img/pinterest.svg);
 }
 
 /*Hero-------------------------------*/
@@ -563,7 +572,7 @@ a:hover {
   align-items: center;
 }
 .play {
-  background: url(/assets/img/play_hover_3.svg);
+  background: url(/assets/img/play-hover3.svg);
   background-size: contain;
   background-repeat: no-repeat;
   transition: 0.3s;
