@@ -78,6 +78,7 @@ body {
 /* Header----------------------------*/
 
 .container {
+  box-sizing: border-box;
   max-width: 1440px;
   min-height: 90px;
   margin: 0px auto;
@@ -145,6 +146,14 @@ body {
   gap: 8px;
   font-weight: bold;
   align-items: center;
+}
+
+/*main--------*/
+.main-container {
+  box-sizing: border-box;
+  max-width: 1440px;
+  margin: 0px auto;
+ /* padding: 0px 20px;*/
 }
 
 /* Footer------------------------------------*/
