@@ -16,60 +16,72 @@
 /*small device*/
 @media only screen and (max-width: 768px) {
   /* */
-  .hero_title > h1 {
-    font-family: "Merriweather";
-    font-weight: regular;
-    font-size: 32px;
-    line-height: 60px;
-    margin: 0;
-  }
-  .skills_title > h2 > span {
-    font-family: "Merriweather";
-    font-weight: bold;
-    font-size: 32px;
-  }
-  .digital {
-    font-family: "inter";
-    font-weight: bold;
-    font-size: 20px;
-  }
-  .high {
-    font-family: "Inter";
-    font-weight: regular;
-    font-size: 18px;
-  }
-  .skills_item {
-    width: 300px;
-    height: 224px;
-    margin-bottom: 40px;
+  /* .open:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #000;
+    z-index: -1;
+    opacity: 0.5;
+  }*/
+}
+.hero_title > h1 {
+  font-family: "Merriweather";
+  font-weight: regular;
+  font-size: 32px;
+  line-height: 60px;
+  margin: 0;
+}
+.skills_title > h2 > span {
+  font-family: "Merriweather";
+  font-weight: bold;
+  font-size: 32px;
+}
+.digital {
+  font-family: "inter";
+  font-weight: bold;
+  font-size: 20px;
+}
+.high {
+  font-family: "Inter";
+  font-weight: regular;
+  font-size: 18px;
+}
+.skills_item {
+  width: 300px;
+  height: 224px;
+  margin-bottom: 40px;
 }
 .pf {
-    font-family: "Merriweather";
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
 }
 .portfolio-btns .btn2 .btn5 {
-    font-family: "Inter";
-    font-weight: 400;
-    font-size: 20px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
 }
 .pv {
-    font-family: "Merriweather";
-    font-weight: 700;
-    font-size: 32px;
+  font-family: "Merriweather";
+  font-weight: 700;
+  font-size: 32px;
 }
 .pc {
-    font-family: "Merriweather";
-    font-weight: 700;
-    font-size: 32px;
+  font-family: "Merriweather";
+  font-weight: 700;
+  font-size: 32px;
 }
 .menu-btn {
   opacity: 1;
-  }
+}
 .menu-btn {
-    z-index: 5;
-  }
+  z-index: 5;
+}
 .menu_list {
   opacity: 0;
 }
